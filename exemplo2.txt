@@ -1,0 +1,8 @@
+digraph DAG {
+    A -> C;
+    C -> {B, D};
+    B -> D;
+    F -> E;
+    E -> {G, H};
+    G -> H;
+}
